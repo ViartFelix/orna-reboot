@@ -1,3 +1,8 @@
 :root {
   --colormain: rgb(32, 32, 32);
+
+  --colormain2: rgb(41, 36, 31);
+
+  --textcolor: rgb(231, 231, 231);
+  --textinactive: rgb(177, 177, 177);
 }

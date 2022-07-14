@@ -1,11 +1,19 @@
 html {
   overflow: hidden visible;
+  font-family: 'Be Vietnam Pro',sans-serif;
 }
 
 html,body,main {
   position: relative;
+  color: var(--textcolor);
 }
 
-h1,h2,h3,h4,h5,h6,p {
+body,h1,h2,h3,h4,h5,h6,p {
   margin: 0;
+}
+
+html {
+  background-color: var(--colormain);
+  min-height: 100vh;
+  min-width: 100vw;
 }

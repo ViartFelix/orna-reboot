@@ -5,5 +5,7 @@
 </script>
 
 <template>
-
+<main>
+  qzdzdqz
+</main>
 </template>
