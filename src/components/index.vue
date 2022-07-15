@@ -1,11 +1,11 @@
 <script lang="ts">
   export default {
-    
+    name: 'home'
   }
 </script>
 
 <template>
 <main>
-  qzdzdqz
+  zqdlkqzdlknjdl
 </main>
 </template>

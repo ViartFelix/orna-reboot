@@ -1,10 +1,19 @@
 <script setup lang="ts">
   import { RouterLink, RouterView } from 'vue-router'
-  import header_top from './components/header/header.vue';
+  import header_top from './components/header.vue';
   import index from './components/index.vue';
 </script>
 
 <template>
   <header_top/>
-  <index/>
+
+  <div class="after-header" id="after-header">
+    <router-view></router-view>
+  </div>
 </template>
+
+<style>
+  .after-header {
+    margin-top: 110px;
+  }
+</style>

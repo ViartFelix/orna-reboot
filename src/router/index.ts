@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import yo from "../components/header/header.vue"
+import index from "../components/index.vue"
+import petscompo from "../components/pets.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -7,7 +8,12 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: yo
+      component: index
+    },
+    {
+      path: '/pets',
+      name: 'pets',
+      component: petscompo
     }
   ]
 })

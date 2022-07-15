@@ -1,8 +1,22 @@
 :root {
+
+  /* ------------------------ Colors ------------------------ */
   --colormain: rgb(32, 32, 32);
 
-  --colormain2: rgb(41, 36, 31);
+  --colormain2: rgb(54, 46, 43);
 
   --textcolor: rgb(231, 231, 231);
-  --textinactive: rgb(177, 177, 177);
+  --textinactive: rgb(161, 161, 161);
+
+  /* ------------------------ Text ------------------------ */
+
+  --title: 50px;
+  --normaltext: 16px;
+  --defaulttext: 16px;
+
+  /* ------------------------ Header ------------------------ */
+
+  --headerheight: 60px;
+  --headerpadding: 5px;
+  --header_BG: var(--colormain2);
 }
