@@ -1,7 +1,6 @@
 <script setup lang="ts">
   import { RouterLink, RouterView } from 'vue-router'
-  import header_top from './components/header.vue';
-  import index from './components/index.vue';
+  import header_top from './components/header/header.vue';
 </script>
 
 <template>
@@ -14,6 +13,6 @@
 
 <style>
   .after-header {
-    margin-top: 110px;
+    margin-top: 104px;
   }
 </style>

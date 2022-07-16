@@ -1,6 +1,7 @@
 <script lang="ts">
-let res=Math.round(Math.random()*3)+1
-let link="/pets_header/"+res+".png";
+//10 max
+let res=Math.round(Math.random()*9)+1
+let link="/consumables_header/"+res+".png";
 
 export default {
   data() {
