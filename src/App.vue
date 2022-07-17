@@ -6,13 +6,14 @@
 <template>
   <header_top/>
 
-  <div class="after-header" id="after-header">
+  <main class="after-header">
     <router-view></router-view>
-  </div>
+  </main>
 </template>
 
 <style>
   .after-header {
-    margin-top: 104px;
+    position: relative;
+    margin-top: 150px;
   }
 </style>

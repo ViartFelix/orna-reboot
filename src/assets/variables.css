@@ -1,16 +1,17 @@
 :root {
 
   /* ------------------------ Colors ------------------------ */
-  --colormain: rgb(32, 32, 32);
+  --colormain: #202020;
 
-  --colormain2: rgb(54, 46, 43);
+  --colormain2: #362e2b;
 
-  --textcolor: rgb(231, 231, 231);
-  --textinactive: rgb(161, 161, 161);
+  --textcolor: #e7e7e7;
+  --textinactive: #a1a1a1;
 
   /* ------------------------ Text ------------------------ */
 
   --title: 50px;
+  --subtitle: 40px;
   --normaltext: 16px;
   --defaulttext: 16px;
 
@@ -19,4 +20,8 @@
   --headerheight: 60px;
   --headerpadding: 5px;
   --header_BG: var(--colormain2);
+
+  /* ------------------------ Index ------------------------ */
+
+  --BG-desc: linear-gradient(0deg, rgba(0,0,0,0) 0%, var(--colormain) 75%, var(--colormain) 100%);
 }

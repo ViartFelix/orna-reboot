@@ -13,6 +13,8 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "@glidejs/glide": "^3.5.2",
+    "gsap": "^3.10.4",
     "material-icons": "^1.11.5",
     "pinia": "^2.0.14",
     "vue": "^3.2.37",

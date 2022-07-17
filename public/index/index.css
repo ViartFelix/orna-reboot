@@ -1,0 +1,109 @@
+main {
+  position: relative;
+}
+
+.container {
+  max-width: 1300px;
+  margin: auto;
+}
+
+.container.main_top {
+  display: block;
+}
+
+.main_title {
+  font-size: var(--title);
+  font-weight: 900;
+}
+
+.second_title {
+  font-size: var(--subtitle);
+  font-weight: 700;
+}
+
+.presentation-top {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 200px);
+  margin-bottom: 50px;
+}
+
+.presentation-top .dp-grid {
+  transform: translateY(-50px);
+}
+
+.presentation-top .dp-grid .alc:first-child {
+  margin-top: 50px;
+}
+
+.presentation-top, .main_title {
+  user-select: none;
+}
+
+.presentation-top .site_logo {
+  height: 350px;
+}
+
+.wrapper_link-down {
+  position: absolute;
+  bottom: 0;
+  border-radius: 100%;
+  background-color: transparent;
+  animation: down_arrow-animation 3s ease-in-out infinite;
+}
+
+.wrapper_link-down span {
+  transform: translateY(5px);
+  color: var(--textcolor);
+}
+
+.wrapper_link-down, .wrapper_link-down * {
+  transition: all 0.3s ease-in-out;
+}
+
+.wrapper_link-down a {
+  display: block;
+  height: 100%;
+}
+
+.wrapper_link-down:hover {
+  background-color: var(--textcolor);
+}
+
+.wrapper_link-down:hover span {
+  color: var(--colormain);
+}
+
+@keyframes down_arrow-animation {
+  0% {transform: translateY(0)}
+  50% {transform: translateY(20px)}
+  100% {transform: translateY(0)}
+}
+
+/* --------------------------- Section description glide --------------------------- */
+
+section.description {
+  position: relative;
+  min-height: 100vh;
+  background: var(--BG-desc);
+}
+
+section.description::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/index/nature-BG.png);
+}
+
+section.description .container {
+  display: block;
+  padding-top: 150px;
+}
