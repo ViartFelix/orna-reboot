@@ -9,8 +9,6 @@ export default {
 
 let i=0;
 let name_replacable=[
-  "items",
-  "equipments",
   "materials",
   "monsters",
   "bosses",
@@ -18,6 +16,7 @@ let name_replacable=[
   "pets",
   "consumables",
   "potions",
+  "equipments",
 ];
 
 setInterval(()=>{
@@ -34,5 +33,5 @@ setInterval(()=>{
 </script>
 
 <template>
-  <span class="replacable-gsap">items</span>
+  <span class="replacable-gsap">equipments</span>
 </template>

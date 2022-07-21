@@ -1,10 +1,11 @@
 <script lang="ts">
 
 import TextchangeGsap from "./index/text-change-gsap.vue";
+import DescriptionGlide from "./index/description-glide.vue";
 
 export default {
   name: "home",
-  components: { TextchangeGsap }
+  components: { TextchangeGsap, DescriptionGlide }
 }
 </script>
 
@@ -28,7 +29,11 @@ export default {
   <section id="description" class="description">
     <div class="container">
       <div class="description-top">
-        <h2 class="subtitle subtitle-desc">A complete entry of <TextchangeGsap/> </h2>
+        <h2 class="subtitle subtitle-desc alc">A complete entry of <TextchangeGsap/> </h2>
+      </div>
+
+      <div class="glide-wrapper">
+        <DescriptionGlide/>
       </div>
     </div>
   </section>

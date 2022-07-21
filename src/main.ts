@@ -11,6 +11,7 @@ import './assets/main.css'
 import './assets/variables.css'
 import './assets/fonts.css'
 import 'material-icons/iconfont/material-icons.css';
+import '@glidejs/glide/dist/css/glide.core.min.css';
 
 const app = createApp(App)
 

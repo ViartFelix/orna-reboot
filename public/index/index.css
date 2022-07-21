@@ -107,3 +107,8 @@ section.description .container {
   display: block;
   padding-top: 150px;
 }
+
+section.description .description-top .subtitle-desc {
+  font-size: var(--subtitle);
+}
+
