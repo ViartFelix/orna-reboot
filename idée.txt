@@ -1,0 +1,2 @@
+la data de la bdd seras sur plusieurs fichiers, un fichier par table
+dans les vues, import equi_data from "../equi_data.json"

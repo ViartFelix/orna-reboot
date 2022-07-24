@@ -1,0 +1,15 @@
+[
+{"type":"header","version":"5.0.2","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"orna-reboot"},
+{"type":"table","name":"equipements","database":"orna-reboot","data":
+  [
+    {"id":"1","name":"baguette","icon":"baguette"}
+  ]
+},
+{"type":"table","name":"test","database":"orna-reboot","data":
+  [
+    {"id":"1","dqdzqzddqz":"qzdqzdq","qzddqd":"qzdqdq"},
+    {"id":"2","dqdzqzddqz":"qzd","qzddqd":"dzqqd"}
+  ]
+}
+]

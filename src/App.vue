@@ -1,6 +1,8 @@
 <script setup lang="ts">
   import { RouterLink, RouterView } from 'vue-router'
   import header_top from './components/header/header.vue';
+  import axios from "axios";
+
 </script>
 
 <template>

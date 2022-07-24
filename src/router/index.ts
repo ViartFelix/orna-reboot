@@ -51,7 +51,7 @@ const router = createRouter({
       path: '/potions',
       name: 'potions',
       component: potionscompo
-    }
+    },
   ]
 })
 
